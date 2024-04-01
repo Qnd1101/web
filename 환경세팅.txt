@@ -1,0 +1,13 @@
+vscode 설치
+1. 한국어 : vscode 전체를 한국어로
+2. live server : - html을 실행할 수 있도록 해주는 플러그인
+3. Beautify : - 정렬 해주는 플러그인
+4. Auto Close Tag : 자동으로 닫는 태그를 생성해주는 플러그인
+5. Auto Rename Tag : 태그명을 바꾸면 닫는 태그도 자동으로 바꾸어주는 플러그인
+6. CSS Peek : tml파일에서 css파일을 금방 찾게해주는 플러그인
+7. indent-rainbow : 자동 들여쓰기
+8. Lorem ipsum(X) : 
+9. Highlight Matching Tag : 어디까지가 닫힘인지 알려주는 플러그인
+10. Color Highlight : 16진수로 표기된 컬러코드를 표시해주는 플러그인
+11. Material Icon Theme : 아이콘 이쁘게 변경해주는 플러그인
+12. Material Icon Theme : 코드 테마
