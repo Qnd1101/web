@@ -10,3 +10,6 @@ index.html 파일 생성
 html 세팅
 처음에 '!' 를 입력하여 자동완성을 만들고 
 html lang을 ko로 바꾸고 css, script 링크를 걸어줌
+
+div.cont$*3>h3
+(li>a[href="#"])*4
