@@ -34,4 +34,14 @@ $(function(){
         tabCont.hide();
         tabCont.eq(index).show();
     });
+
+    // layerPopup
+    $(".layerPopup").click(function(){
+        $(".layer_bg").show();  
+        $(".layer").show();
+    });
+    $(".layer .close").click(function(){
+        $(".layer_bg").hide();  
+        $(".layer").hide();
+    });
 });
