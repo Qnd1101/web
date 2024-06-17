@@ -1,1 +1,189 @@
 @charset "utf-8";
+
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color: #666;
+}
+
+body {
+    background-color:#fff ;
+}
+
+
+header {
+    width: 1340px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.gnb {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.gnb li {
+    height: 100%;
+    font-size: 20px;
+    position: relative;
+    z-index: 50;
+}
+
+header .gnb > li > a {
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+header .gnb li .lnb {
+    background: #200955;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    transition: all 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+header .gnb li .lnb a {
+    color: #666;
+    line-height: 50px;
+
+}
+header .gnb li:hover .lnb{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+header .gnb li:hover {
+    background-color: #0f5969;
+}
+
+header .gnb li:hover a {
+    color: #666;
+}
+
+.slide  {
+    width: 100%;
+    height: 350px;
+    background: #fff;
+}
+
+.slide li {
+    position: absolute;
+    display: none;
+}
+
+.slide li:first-child{
+    display: block;
+}
+
+.baro {
+    width: 1340px;
+    height: 80px;
+    background: #ddd;
+    margin: -80px auto 0 auto;
+    position: relative;
+}
+
+.baro ul {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.baro ul li a {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.baro img {
+    height: 60px;
+}
+
+.banner {
+    width: 1340px;
+    height: 140px;
+    background: #ddd;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner a img {
+    height: 90px;
+}
+
+.board {
+    width: 1340px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.board .title_box {
+    margin-top: 36px;
+    display: flex;
+}
+
+.board .title_box h2 {
+    background: #e4e4e4;
+    font-size: 20;
+    width: 110px;
+    height: 45px;
+    display: flex;
+    padding-left:10px;
+}
+
+.board .title_box h2.on {
+    background: #200995;
+}
+
+.board .title_box h2.on a {
+    color: #fff;
+}
+
+.board .title_box h2 a {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.board .notice_box li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.board .gallery_box {
+    height: 250px;
+    display: none;
+}
+
+.board .gallery_box ul {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.board .gallery_box ul li img {
+    width: 260px;
+}
