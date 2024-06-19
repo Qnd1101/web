@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #222;
+}
+a {
+    display: block;
+}
+header {width: 1200px;height: 100px;background-color: #ccc;margin : 0 auto;position: relative;}
+header h1 {width: 200px;height: 40px; padding-top: 25px;}
+.gnb {display: flex; position: absolute;top: 40px; right: 0; z-index: 6; text-align: center;}
+.gnb > li > a {display: block; width: 120px; background-color: #fff; text-align: center; font-weight: bold; padding: 20px; color: green;}
+.gnb > li:hover > a {background-color: wheat;}
+.lnb {position: relative; z-index: 3; display: none;}
+.lnb li a {padding: 5px; text-align: center; font-size: 14px; color: #fff; height: 30px; line-height: 40px;}
+.lnb > li:hover > a {background-color: wheat;}
+.bg {position: absolute; left: -560px; top: 60px; background: rgba(0, 0, 0, 0.8); z-index: 2; width: 1200px; height: 120px; display: none;}
+
+.slide {width: 1200px;height: 300px;margin : 0 auto; display: flex; position: relative; overflow: hidden;}
+.slideList {display: flex; width: 3600px;position: absolute; top: 0; left: 0; height: 300px;}
+.slideList {flex:none; width: 1200px;}
+.slideList li a {display: block; height: 100%;  float: left;}
+
+.contents {width: 1200px; height: 200px;margin : 0 auto;display: flex;}
+.contents h2 {margin: 10px 0;}
+
+.notice {width: 400px;}
+.notice ul {margin: 0 10px;}
+.notice ul li a{display: block;}
+.notice span {float: right;}
+
+.gallery {width: 400px;}
+.gallery img{width: 120px; height: 70px; float: left; margin: 0 5px;}
+
+.banner {width: 400px;}
+.banner ul li a {position: relative;}
+.banner ul li .img {
+    width: 40px;
+}
+.banner ul li .text{width: 300px; margin-left: 15px;}
+.banner ul li a {display: flex; align-items: center;}
+
+
+
+
+footer {width: 1200px;height: 100px;margin : 0 auto; background-color: #ccc;}
+footer h1 {width: 200px;height: 100px; float: left;}
+footer h1 img {height: 40px;padding-top: 30px;}
+
+footer .info {width: 700px; height: 100px; margin-top: 30px; padding-left: 30px; float: left;}
+footer .family {width: 200px; height: 100px; float: left; margin-top: 35px; margin-left: 60px;}
+footer select {padding: 7px;}
+
+.popup_box {position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); z-index: 100; display: none;}
+.popup {position: absolute; transform: translate(-50%, -50%); left: 50%; top: 50%; width: 500px; height: 300px; background-color: #fff; padding: 10px;}
+.popup h3 {font-size: 25px; padding: 10px;}
+
