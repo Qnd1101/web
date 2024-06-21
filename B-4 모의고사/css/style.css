@@ -46,7 +46,7 @@ header h1 img {
     width: 1200px;
     height: 160px;
     background-color: aqua;
-    top: 70px;
+    top: 100px;
     right: 0;
     display: none;
 }
@@ -60,10 +60,10 @@ header h1 img {
     right: 0;
     top: 30px;
     background: aqua;
-    z-index: 1;
+    z-index: 6;
 }
 
-.gnb li > a {
+.gnb li a {
     display: block;
     width: 200px;
     height: 70px;
@@ -81,10 +81,10 @@ header h1 img {
 .lnb {
     position: relative;
     z-index: 1000;
+    display: none;
 }
 
-.lnb li > a {
-    display: none;
+.lnb li a {
     height: 40px;
     line-height: 40px;
     background-color: aqua;
@@ -101,13 +101,19 @@ header h1 img {
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    z-index: 5;
 }
 
 .slideList {
+    position: absolute;
     display: flex;
     width: 3600px;
     height: 300px;
+}
+
+.slideList li a {
+    display: block;
+    height: 100%;
+    float: left;
 }
 
 .contents {
@@ -124,6 +130,10 @@ header h1 img {
 
 .contents .notice li {
     margin-top: 5px;
+}
+
+.contents .notice a {
+    display: block;
 }
 
 .contents .notice span {
@@ -174,7 +184,6 @@ footer {
 .fmenu {
     width: 1000px;
     height: 50px;
-    margin-left: 150px;
 }
 
 .fmenu li {
@@ -186,7 +195,6 @@ footer {
 .copy {
     width: 600px;
     height: 50px;
-    margin-left: 150px;
     float: left;
 }
 
@@ -224,4 +232,13 @@ footer {
 .layer p {
     margin-top: 10px;
     border-bottom: 1px solid #ccc;
+}
+
+.layer a{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 20%;
+    padding: 10px 20px;
 }
