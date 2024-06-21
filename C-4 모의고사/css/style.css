@@ -65,7 +65,7 @@ header .gnb li a {
 header .gnb li .lnb {
     position: absolute;
     right: -180px;
-    top: 0;
+    top: -30px;
     background: #d65600;
     width: 180px;
     opacity: 0;

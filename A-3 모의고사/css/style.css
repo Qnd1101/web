@@ -1,0 +1,281 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #333;
+}
+
+a {
+    display: block;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #333;
+    position: relative;
+}
+
+.hlogo {
+    width: 200px;
+    background-color: #333;
+    float: left;
+}
+header img {
+    width: 150px;
+    height: 90px;
+    background-color: #333;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.gnb {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    text-align: center;
+    z-index: 6;
+    background-color: #fff;
+}
+
+.gnb > li > a {
+    width: 120px; 
+    text-align: center; 
+    font-weight: bold; 
+    padding: 20px; 
+    color: green;
+}
+
+.gnb > li:hover > a {
+    background-color: cornsilk;
+}
+
+.lnb {
+    position: relative; 
+    z-index: 3;
+    display: none;
+}
+
+.lnb li a {
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.lnb > li:hover > a {
+    background-color: cornsilk;
+}
+
+.slide {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slideList {
+    position: relative;
+}
+
+.slideList li img {
+    position: absolute;
+}
+
+.contents {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.contents > div {
+    width: 400px;
+    height: 200px;
+}
+
+.tab_menu {
+    float: left;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.content_box {
+    height: 200px;
+}
+
+.contents .content_box ul{
+    overflow: hidden;
+}
+
+.contents .title_box li{
+    float: left;
+}
+
+.contents .content_box .notice {
+    float: left;
+}
+.contents .content_box .notice li {
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contents .content_box .notice li span{
+    float: right;
+}
+
+.contents .content_box .gallery{
+    width: 400px;
+}
+
+.contents .content_box .gallery img {
+    float: left;
+    width: 115px;
+    padding-top: 20px;
+    padding-right: 5px;
+    /* display: none; */
+}
+
+.contents .title_box .tab_btn li a {
+    display: block;
+    padding: 5px;
+    background-color: #ddd;
+    border: 1px solid #000;
+    border-bottom: none;
+}
+
+.banner {width: 400px; float: left;}
+.banner ul li a {position: relative;}
+
+.banner ul li {
+    width: 400px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.banner ul li img {
+    width: 30px;
+    float: left;
+}
+.banner ul li .text {
+    float: left;
+}
+
+.baro {
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.baro img {
+    width: 80px;
+    height: 100px;
+    float: left;
+    margin-top: 6px;
+}
+
+.baro .text {
+    float: left;
+    margin-top: 10px;
+}
+
+.baro a {
+    float: left;
+}
+
+.baro .text {
+    width: 80px;
+    text-align: center;
+}
+
+.baro img {
+    height: 60px;
+}
+
+footer {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #333;
+}
+
+footer h2 {
+    width: 200px;
+    height: 100px;
+    background-color: #333;
+    float: left;
+}
+
+footer img {
+    width: 150px;
+    height: 90px;
+    background-color: #333;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+footer .fmenu {
+    width: 1000px;
+    float: left;
+    margin-top: 10px;
+}
+
+footer .fmenu ul li {
+    float: left;
+}
+
+footer .fmenu ul li a {
+    color: #fff;
+    padding: 0 20px;
+}
+
+footer .copy {
+    color: #fff;
+    width: 1000px;
+    float: left;
+    margin-top: 10px;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    display: none;
+}
+
+.layer .popup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+}
+
+.layer a {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+}
+
