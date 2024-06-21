@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>해운대 빛축제</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
     <header>
@@ -53,22 +56,40 @@
     <section>
         <div class="contents">
             <div class="tab_menu">
-                <div class="tab_btn">
-                    <ul>
-                        <li><a href="#" class="layerPopup">내용</a></li>
-                        <li><a href="#">내용</a></li>
-                        <li><a href="#">내용</a></li>
+                <div class="title_box">
+                    <ul class="tab_btn">
+                        <li class="active"><a href="#">공지사항</a></li>
+                        <li><a href="#">갤러리</a></li>
                     </ul>
                 </div>
-                <div class="tab_cont">
-                    div.
+                <div class="content_box">
+                    <ul class="notice">
+                        <li><a href="#" class="layerPopup">내용<span>2024-06-21</span></a></li>
+                        <li><a href="#">내용<span>2024-06-21</span></a></li>
+                        <li><a href="#">내용<span>2024-06-21</span></a></li>
+                    </ul>
+                    <ul class="gallery">
+                        <ul>
+                            <li><a href="#"><img src="images/gallery-01.jpg" alt="gal1"></a></li>
+                            <li><a href="#"><img src="images/gallery-02.jpg" alt="gal2"></a></li>
+                            <li><a href="#"><img src="images/gallery-03.jpg" alt="gal3"></a></li>
+                        </ul>
+                    </ul>
                 </div>
             </div>
             <div class="banner">
-                
+                <h2>배너</h2>
+                <div class="img">
+                    <a href="#">
+                        <img src="images/banner.jpg" alt="banner">
+                    </a>
+                </div>
             </div>
             <div class="baro">
-
+                <h2>바로가기</h2>
+                <div>
+                    <a href="#"><img src="images/banner.jpg" alt="baro"></a>
+                </div>
             </div>
         </div>
     </section>
