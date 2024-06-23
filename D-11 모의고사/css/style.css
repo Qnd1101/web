@@ -69,6 +69,7 @@ nav {
 
 .gnb li:hover .lnb {
     max-height: 160px;
+    transition: all 0.3s;
 }
 
 .login {
