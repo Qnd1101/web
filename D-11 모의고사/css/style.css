@@ -1,0 +1,279 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+}
+
+body {
+    background: #fff;
+    width: 100%;
+    height: 950px;
+}
+
+header {
+    width: 200px;
+    height: 850px;
+    background-color: lightgray;
+    float: left;
+}
+
+header h2 {
+    width: 200px;
+    height: 150px;
+}
+
+header h2 img {
+    width: 200px;
+    height: 150px;
+}
+
+nav {
+    width: 200px;
+    height: 680px;
+}
+
+.gnb {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.gnb>li>a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: coral;
+    text-align: left;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.lnb {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.lnb>li>a {
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    background-color: darkorchid;
+    color: #fff;
+    text-align: center;
+}
+
+.gnb li:hover .lnb {
+    max-height: 160px;
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login a:first-child {
+    border-right: 1px solid #000;
+    padding-right: 10px;
+}
+
+.slide {
+    width: calc(100% - 200px);
+    height: 400px;
+    float: left;
+    overflow: hidden;
+}
+
+.slideList {
+    width: 100%;
+    height: 1200px;
+    position: relative;
+}
+
+.slideList img {
+    width: 100%;
+    height: 400px;
+}
+
+.slideList li{
+    width: 100%;
+    height: 400px;
+}
+
+.baro {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 90px;
+}
+
+.baro li {
+    background-color: green;
+}
+
+.baro p {
+    color: #fff;
+    text-align: center;
+    width: 80px;
+    border-bottom: 1px solid #000;
+}
+
+.contents {
+    width: calc(100% - 200px);
+    height: 450px;
+    float: left;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+}
+
+.banner .blogo {
+    float: left;
+    height: 200px;
+}
+
+.banner .blogo img {
+    width: 200px;
+    height: 200px;
+}
+
+.Qnd {
+    width: calc(100% - 400px);
+    height: 200px;
+    float: left;
+    background-color: #333;
+}
+
+.Qnd h2 {
+    color: #fff;
+}
+
+.Qnd p {
+    color: #fff;
+}
+
+.banner .arrow {
+    float: left;
+}
+
+.banner .arrow img {
+    width: 200px;
+    height: 200px;
+}
+
+.title_box li .active{
+    background-color: cyan;
+}
+
+.tab_menu {
+    width: 100%;
+    height: 250px;
+    float: left;
+}
+
+.title_box {
+    width: calc(100% - 2%);
+    height: 50px;
+    margin-left: 2%;
+}
+
+.title_box ul li{
+    float: left;
+}
+
+.title_box li {
+    width: 120px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.title_box li a {
+    background-color: cornsilk;
+    display: block;
+}
+
+.tab_menu{
+    overflow: hidden;
+}
+
+.content_box .notice {
+    width: 95%;
+    height: 200px;
+    margin: 0 2%;
+}
+
+.content_box span {
+    float: right;
+}
+
+.content_box .notice li a{
+    display: block;
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+}
+
+.content_box .gallery img {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.flogo {
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.copy {
+    width: calc(100% - 500px);
+    height: 100px;
+    float: left;
+    background-color: lightgray;
+}
+
+.sns {
+    width: 300px;
+    height: 85px;
+    float: left;
+    padding-top: 15px;
+}
+
+.sns img {
+    float: left;
+    width: 70px;
+}
+
+.layer {
+    position: absolute;
+    left: 50%;
+    top: 450px;
+    transform: translate(-50%, -50%);
+    background-color: cyan;
+    width: 500px;
+    height: 400px;
+    display: none;
+}
+
+.layer a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+}
