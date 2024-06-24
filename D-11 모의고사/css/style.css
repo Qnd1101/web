@@ -30,46 +30,56 @@ header h2 {
 header h2 img {
     width: 200px;
     height: 150px;
-}
-
-nav {
-    width: 200px;
-    height: 680px;
-}
+}   
 
 .gnb {
-    width: 200px;
-    margin-top: 20px;
+    width: 180px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 100;
 }
 
-.gnb>li>a {
-    display: block;
-    height: 50px;
-    line-height: 50px;
+.gnb li {
+    position: relative;
+}
+
+.gnb > li > a {
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
     background-color: coral;
-    text-align: left;
-    color: #fff;
-    padding-left: 10px;
+}
+
+.gnb li:hover > a {
+    background: pink;
+    color: black;
+}
+
+.lnb > li > a {
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
 }
 
 .lnb {
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.3s;
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    left: 190px;
+    opacity: 1;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
-.lnb>li>a {
-    height: 40px;
-    line-height: 40px;
-    display: block;
-    background-color: darkorchid;
-    color: #fff;
-    text-align: center;
+.lnb li {
+    float: left;
 }
 
-.gnb li:hover .lnb {
-    max-height: 160px;
-    transition: all 0.3s;
+.gnb:hover .lnb {
+    opacity: 1;
+    visibility: visible;
 }
 
 .login {
